@@ -1,0 +1,110 @@
+.contenedor{
+    width: 100%;
+    margin: auto;
+    border-bottom: 30px;
+    }
+    img{
+        width: 100%;
+    }
+    .header__contenido{
+        position: relative;
+        z-index: 100;
+    }
+    .logo{
+        font-weight: 900;
+        font-size: 30px;
+        margin: 10px;
+        font-family: cambria;
+       color: #fff;
+    }
+    .banner{
+        height: 50vh;
+        margin-top: -60px;
+        position: relative;
+        background: url('../imagenes/Imagen\ home.jpg');
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
+    }
+    .banner__descripcion{
+     position: absolute;
+        text-align: center;
+         color: #fff;
+        transform: translateX(-50%) translateY(-50%);
+      top: 50%;
+      left: 50%;
+      width: 100%;
+      font-size: 15px;
+      margin-top: 40px;
+    }
+    .button__banner{
+        background: #8bd4dd;
+        border: none;
+        padding: 20px;
+        color: #fff;
+        font-size: 20px; 
+    }
+    .button__banner:hover{
+        border:2px solid $color-principalletras;
+        background: none;
+    }
+    .galeria h1{
+        font-size: 40px;
+        text-align: center;
+    }
+    .galeria{
+        margin: 20px;
+    }
+    .team  h1{
+        font-size: 40px;
+    text-align: center;
+    }
+    .team{
+        background: #ffffff;
+        padding: 30px;
+    }
+    .team__columna img{
+    border-radius: 50%;
+    }
+    .team p{
+        text-align: justify;
+    }
+    .team__grid{
+        display: grid;
+        grid-gap:30px;
+    }
+    .info h1{
+        color: $color-principalletras;
+        font-size: 30px;
+    }
+    .info{
+        text-align: center;
+    }
+    .info__columna{
+        margin: 20px;
+    }
+    .info .contenedor{
+        display: grid;
+        grid-gap:10px;
+    }
+    
+    .banner2{
+        height: 50vh;
+       color: #fff;
+        position: relative;
+       background: url('../imagenes/imagenwpp.jpg');
+       background-size: cover;
+       background-position: right;
+       background-attachment: fixed;
+    }
+    .banner2 h1{
+        font-size: 28px;
+    }
+    .banner2__descripcion{
+    position: absolute;
+    width: 100%;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    text-align: center;
+    }
