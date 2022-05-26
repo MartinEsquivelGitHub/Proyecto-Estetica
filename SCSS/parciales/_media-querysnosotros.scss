@@ -1,0 +1,16 @@
+ 
+  @media screen and (max-width: 768px) {
+    .header {
+        text-align: center;
+    }
+    .container_nosotros .content_nosotros {
+        grid-column: 1 / -1;
+    }
+    .container_nosotros .sidebar_nosotros {
+        grid-column: 1 / 6;
+    }
+  
+    .container_nosotros .related-post_nosotros {
+        grid-column: 1/-1;
+    }
+  }

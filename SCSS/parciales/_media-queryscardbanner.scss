@@ -1,0 +1,28 @@
+@media screen and (max-width: 800px){
+   
+    .container__cards{
+        perspective: none;
+        flex-wrap: wrap;
+    }
+    
+    .card{
+        max-width: 290px;
+        margin: 20px;
+        transform: scale(1);
+    }
+    
+    .card:hover{
+        transform: translateY(0px) scale(1.08);
+    }
+  }
+  
+  
+  @media screen and (max-width: 650px){
+    
+    .card{
+        max-width: 350px;
+        margin: 20px;
+        transform: translateY(0deg) scale(1);
+    }
+    
+  }
