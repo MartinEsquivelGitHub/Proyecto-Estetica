@@ -1,8 +1,12 @@
 $color-principalletras: #8bd4dd;
 
 //mapa chico//
+ /*
 $estilos: (
- color: none,
+ color: orange,
+ centro: center,
+ tFuente: 35px,
+ padding : 1rem
 );
 
 
@@ -12,7 +16,8 @@ div {
     padding: map-get($estilos, padding) * 5;
     font-size:map-get($estilos, tFuente);
 }
-
 .section1 {
     background-color: map-get($estilos, color);
-}
+} 
+*/
+
