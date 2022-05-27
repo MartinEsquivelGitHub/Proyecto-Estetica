@@ -1,5 +1,15 @@
-/*coloque esta variable sola para que se vea que lo entendi y que lo se usar , lo coloque en algunos parciales*/
 @import url("https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i");
+div {
+  background-color: orange;
+  text-align: center;
+  padding: 5rem;
+  font-size: 35px;
+}
+
+.section1 {
+  background-color: orange;
+}
+
 body {
   background-color: #e4d9d9;
 }
