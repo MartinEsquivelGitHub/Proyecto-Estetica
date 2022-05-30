@@ -1,47 +1,36 @@
 @import url("https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i");
-div {
-  background-color: orange;
-  text-align: center;
-  padding: 5rem;
-  font-size: 35px;
-}
-
-.section1 {
-  background-color: orange;
-}
-
-body {
-  background-color: #e4d9d9;
-}
-
-.seccion1 {
+.seccion1{
   color: #ffffff;
   width: 100%;
   height: 500px;
+
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+
   background-image: url(../imagenes/HomePrincipal.jpg);
   background-size: cover;
   background-position: 100%;
   background-repeat: no-repeat;
 }
+  
+  .seccion1__titulo {
+      font-size: 70px;
+  }
+  
+  .seccion1__subtitulo {
+      font-size: 40px;
+      font-style: italic;
+      margin-bottom: 2rem;
+  }
+  
+  .seccion1__parrafo {
+      font-size: 12px;
+      text-transform: uppercase;
+  }
 
-.seccion1 .seccion1__titulo {
-  font-size: 70px;
-}
 
-.seccion1 .seccion1__subtitulo {
-  font-size: 40px;
-  font-style: italic;
-  margin-bottom: 2rem;
-}
-
-.seccion1 .seccion1__parrafo {
-  font-size: 12px;
-  text-transform: uppercase;
-}
 
 .contenedor {
   width: 100%;
