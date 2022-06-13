@@ -229,6 +229,10 @@ img {
 .pie-pagina .grupo-2 small {
   font-size: 15px;
 }
+.palabras-footer{
+  text-decoration: none;
+  color: #cea7d3;
+}
 
 @media screen and (max-width:800px) {
 .pie-pagina .grupo-1{
@@ -304,7 +308,7 @@ img {
   width: 100%;
   max-width: 1100px;
   margin: auto;
-  display: grid;
+  /*display: grid;*/
   grid-template-columns: repeat(2, 1fr);
   grid-gap: 50px;
   margin-top: 90px;
@@ -777,6 +781,334 @@ hr {
     grid-column: 1/-1;
   }
 }
+
+/*main-index-entregafinal*/
+.body-index{
+  background: rgb(123, 144, 153);
+  font-family:'lato';
+  font-size: 16px;
+}
+
+.contenedor-index{
+  width: 90%;
+  max-width: 1000px;
+  overflow: hidden;
+  margin: auto;
+}
+
+header{
+  background-image: url('../img/portada.png');
+  
+  background-repeat: no-repeat;
+  background-position:center;
+  background-attachment: cover;
+}
+header .menu{
+  margin:30px 0;
+  display:flex;
+  justify-content: flex-end;
+  flex-wrap: wrap;
+}
+header .menu a:hover{
+  text-decoration: underline;
+}
+header .menu a{
+  font-size:18px;
+  font-family: 'lato';
+  font-weight: 300;
+  display: inline-block;
+  padding:10px 0;
+  margin:0 15px;
+  color:#fff;
+  text-decoration: none;
+}
+header .contenido-header{
+  margin:120px 0;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+}
+header .contenido-header .titulo-header{
+  font-size: 90px;
+  text-align: center;
+  color: #fff;
+  text-align: center;
+}
+
+header .contenido-header .linea-header{
+  width: 700px;
+  margin: auto;
+  height:2px;
+  background: #15a4fa;
+  margin-bottom:30px;
+  text-align: center;
+}
+
+header .contenido-header .texto-header{
+  color:#fff;
+  font-weight: 300;
+  margin-bottom:30px;
+  font-size:20px;
+  text-align: center;
+}
+
+header .contenido-header .action-header{
+  display: inline-block;
+  margin: auto;
+  color: #fff;   
+  text-decoration: none;
+  border:1px solid #15a4fa;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+
+header .contenido-header .action-header:hover{
+  background: #15a4fa;
+  color: #fff;
+}
+
+main .quienes{
+  background: #f0f3f5;
+  padding:60px 0;
+}
+
+main .quienes .quienes-titulo{
+  color:#000;
+  font-size: 25px;
+  text-align: center;
+  margin-bottom:20px;
+}
+
+main .quienes .quienes-parrafo{
+  text-align: center;
+  color:#999999;
+  font-weight: 600;
+}
+
+main .quehacemos{
+  margin:60px 0;  
+}
+main .contenido-cajas{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+main .quehacemos .contenido-cajas .tarjeta{
+  width: 30%;
+  text-align: center;
+}
+
+main .quehacemos .contenido-cajas .tarjeta .contenido-tarjeta .titulo-tarjeta{
+  margin:10px 0;   
+}
+
+main .portafolio{
+  background: #f0f3f5;
+  padding: 60px 0;
+}
+
+main .portafolio .portafolio-textos{
+  text-align: center;
+  margin-bottom: 60px;
+  color:#2d3950;
+  font-size: 20px;
+}
+
+main .portafolio .portafolio-textos p{
+  color: #909090;
+  font-size: 15px;
+  margin:20px 0 0 0;
+}
+
+main .portafolio .galeria{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+main .portafolio .galeria .fotos{
+  width: 30%;
+  margin-bottom:20px;
+}
+
+main .portafolio .galeria .fotos img{
+  width: 100%;
+  height:210px;
+  border-radius: 5px;
+}
+main .portafolio .galeria .fotos img:hover{
+  opacity:.6;
+  cursor: pointer;
+}
+
+
+
+@media screen and (max-width:760px){
+  header .menu{
+      justify-content: center;
+  }
+  header .contenido-header .texto-header{
+     font-size:18px;
+  }
+  header .contenido-header .texto-header .desaparecer{
+      display: none;
+  }
+}
+
+@media screen and (max-width:630px){
+  header .contenido-header .titulo-header{
+      font-size:80px;
+  }
+  header .contenido-header .linea-header{
+      width: 400px;
+  }
+  main .portafolio .galeria .fotos{
+      width:49%;
+  }
+}
+
+@media screen and (max-width: 500px){
+  header .contenido-header .titulo-header{
+      font-size:40px;
+  }
+  main .quehacemos .contenido-cajas .tarjeta{
+     width: 48%;
+  }
+  main .contenido-cajas{
+      justify-content: center
+  }
+  main .quehacemos .contenido-cajas .tarjeta{
+      margin:20px 0;
+  }
+}
+
+@media screen and (max-width: 350px){
+  main .quehacemos .contenido-cajas .tarjeta{
+      width: 98%;
+  }
+  header .contenido-header .texto-header{
+      font-size:15px;
+  }
+}
+
+/*Formulario contacto nuevo*/
+.general-contacto {
+  background: #5b7e85;
+  color: #fff;
+  line-height: 1.6;
+  font-family: 'Quicksand', sans-serif;
+  padding: 2em 1.5em;
+}
+
+.container {
+  max-width: 1470px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 1.5em;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+.logo {
+  text-align: center;
+  font-size: 3em;
+}
+
+.logo span {
+  color: #000000;
+}
+
+.contact-wrapper {
+  box-shadow: 0 0 20px 0 rgba(165, 201, 207, 0.3);
+}
+
+.contact-wrapper > * {
+  padding: 1em;
+}
+
+.contact-form {
+  background: #bac8cc;
+}
+
+.contact-form form {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.contact-form form label {
+  display: block;
+}
+
+.contact-form form p {
+  margin: 0;
+  padding: 1em;
+}
+
+.contact-form form .block {
+  grid-column: 1 / 3;
+}
+
+.contact-form form button,
+.contact-form form input,
+.contact-form form textarea {
+  width: 100%;
+  padding: .7em;
+  border: none;
+  background: none;
+  outline: 0;
+  color: #fff;
+  border-bottom: 1px solid rgb(80, 135, 145);
+}
+
+.contact-form form button {
+  background: rgb(80, 135, 145);
+  border: 0;
+  text-transform: uppercase;
+  padding: 1em;
+}
+
+.contact-form form button:hover,
+.contact-form form button:focus {
+  background: #9c8f8f;
+  color: #fff;
+  transition: background-color 1s ease-out;
+  outline: 0;
+}
+
+.contact-info {
+  background: rgb(80, 135, 145);
+}
+
+.contact-info h4, .contact-info ul, .contact-info p {
+  text-align: center;
+  margin: 0 0 1rem 0;
+}
+
+
+@media(min-width: 700px) {
+  body {
+      padding:none;
+  }
+  .contact-wrapper {
+      display: grid;
+      grid-template-columns: 2fr 1fr;
+  }
+  .contact-wrapper > * {
+      padding: 2em;
+  }
+  .contact-info h4,
+  .contact-info ul,
+  .contact-info p {
+      text-align: left;
+  }
+}
+
 
 
 /*# sourceMappingURL=style.css.map */
